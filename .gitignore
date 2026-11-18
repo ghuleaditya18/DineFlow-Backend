@@ -1,4 +1,9 @@
-﻿# Python cache
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python cache
 __pycache__/
 *.py[cod]
 *$py.class
@@ -7,25 +12,9 @@ __pycache__/
 .venv/
 venv/
 env/
+ENV/
 
-# Environment variables
-.env
-.env.*
-!.env.example
-
-# Testing and cache
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-.coverage
-htmlcov/
-
-# Logs
-*.log
-
-# IDE
-.vscode/
-.idea/
-
-# Private invoice PDFs
-private/invoices/
+# Runtime and private data
+uploads/
+private/
+node_modules
