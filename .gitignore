@@ -1,20 +1,46 @@
-# Environment variables
+﻿# Environment variables
 .env
 .env.*
 !.env.example
 
-# Python cache
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Virtual environments
+# Python virtual environment
 .venv/
 venv/
 env/
-ENV/
 
-# Runtime and private data
+# Python generated files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Frontend dependencies
+node_modules/
+
+# Build files
+dist/
+build/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+
+
+# Runtime uploaded images
 uploads/
+
+# Generated private invoice PDFs
 private/
-node_modules
+
+# Local development SQLite databases and backups
+.local/
+*.sqlite3
+*.db
+*.bak*
