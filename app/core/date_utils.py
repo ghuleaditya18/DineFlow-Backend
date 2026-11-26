@@ -22,7 +22,7 @@ def get_date_range(
     """
     Resolve a date preset or custom range into inclusive start and end datetimes
     in the Asia/Kolkata timezone.
-
+    
     Presets:
       - today: start of today to end of today
       - yesterday: start of yesterday to end of yesterday
